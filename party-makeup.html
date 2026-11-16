@@ -1,0 +1,399 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Party &amp; Occasion Makeup | Bridal Makeup Studio | Event Beauty</title>
+  <meta name="description" content="Professional party and special occasion makeup: birthdays, festive celebrations, family functions, fashion photoshoots, and bridesmaid packages.">
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><circle cx='50' cy='50' r='45' fill='%23542B36'/><circle cx='50' cy='50' r='40' stroke='%23C8A66A' stroke-width='2' fill='none'/><path d='M50 22 C50 36 34 45 30 60 C36 60 42 54 50 46 C58 54 64 60 70 60 C66 45 50 36 50 22 Z' fill='%23C8A66A'/></svg>">
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+
+  <!-- Top Utility Bar -->
+  <div class="top-bar">
+    <div class="container top-bar-inner">
+      <div class="top-bar-contact">
+        <span class="top-bar-item">
+          <svg viewBox="0 0 24 24"><path d="M6.62 10.79a15.05 15.05 0 006.59 6.59l2.2-2.2c.27-.27.67-.36 1.02-.24 1.12.37 2.33.57 3.57.57.55 0 1 .45 1 1V20c0 .55-.45 1-1 1-9.39 0-17-7.61-17-17 0-.55.45-1 1-1h3.5c.55 0 1 .45 1 1 0 1.25.2 2.45.57 3.57.11.35.03.74-.25 1.02l-2.2 2.2z"/></svg>
+          Call: 0000000000
+        </span>
+        <span class="top-bar-item">
+          <svg viewBox="0 0 24 24"><path d="M20 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z"/></svg>
+          demo@example.com
+        </span>
+        <span class="top-bar-item">
+          <svg viewBox="0 0 24 24"><path d="M11.99 2C6.47 2 2 6.48 2 12s4.47 10 9.99 10C17.52 22 22 17.52 22 12S17.52 2 11.99 2zM12 20c-4.42 0-8-3.58-8-8s3.58-8 8-8 8 3.58 8 8-3.58 8-8 8zm.5-13H11v6l5.25 3.15.75-1.23-4.5-2.67z"/></svg>
+          Mon – Sat: 9:00 AM – 6:00 PM
+        </span>
+      </div>
+      <div class="top-bar-tag">
+        Generic Demo Website • Hyderabad, Telangana
+      </div>
+    </div>
+  </div>
+
+  <!-- Header -->
+  <header class="header">
+    <div class="container header-inner">
+      <a href="index.html" class="brand-logo-link">
+        <div class="logo-symbol">
+          <svg viewBox="0 0 100 100" fill="none">
+            <circle cx="50" cy="50" r="46" stroke="currentColor" stroke-width="1.5" stroke-dasharray="3 3"/>
+            <circle cx="50" cy="50" r="41" stroke="currentColor" stroke-width="1"/>
+            <path d="M50 18 C50 34 34 44 30 60 C36 60 42 54 50 46 C58 54 64 60 70 60 C66 44 50 34 50 18 Z" fill="currentColor"/>
+          </svg>
+        </div>
+        <div class="brand-text-wrap">
+          <span class="brand-title">BRIDAL MAKEUP STUDIO</span>
+          <span class="brand-subtitle">BEAUTY &amp; MAKEUP SERVICES</span>
+        </div>
+      </a>
+
+      <nav class="nav-desktop" aria-label="Main Navigation">
+        <ul class="nav-links">
+          <li class="nav-item"><a href="index.html" class="nav-link">Home</a></li>
+          <li class="nav-item"><a href="about.html" class="nav-link">About</a></li>
+          <li class="nav-item dropdown">
+            <a href="services.html" class="nav-link active">
+              Services
+              <svg class="dropdown-arrow" viewBox="0 0 24 24"><path d="M7 10l5 5 5-5z"/></svg>
+            </a>
+            <div class="dropdown-menu">
+              <a href="bridal-makeup.html" class="dropdown-link">Bridal Makeup</a>
+              <a href="engagement-makeup.html" class="dropdown-link">Engagement Makeup</a>
+              <a href="reception-makeup.html" class="dropdown-link">Reception Makeup</a>
+              <a href="party-makeup.html" class="dropdown-link active">Party Makeup</a>
+              <a href="services.html#bridesmaid" class="dropdown-link">Bridesmaid Makeup</a>
+              <a href="services.html#family" class="dropdown-link">Family Makeup</a>
+              <a href="services.html" class="dropdown-link" style="font-weight: 600; border-top: 1px solid var(--border-subtle); margin-top: 4px;">View All Services</a>
+            </div>
+          </li>
+          <li class="nav-item"><a href="bridal-makeup.html" class="nav-link">Bridal Makeup</a></li>
+          <li class="nav-item"><a href="bridal-packages.html" class="nav-link">Packages</a></li>
+          <li class="nav-item"><a href="gallery.html" class="nav-link">Gallery</a></li>
+          <li class="nav-item"><a href="contact.html" class="nav-link">Contact</a></li>
+        </ul>
+        <a href="booking.html" class="btn btn-primary btn-sm">Book Your Date</a>
+      </nav>
+
+      <button class="mobile-toggle" id="mobileToggleBtn" aria-label="Toggle navigation menu">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+  </header>
+
+  <!-- Mobile Drawer -->
+  <div class="mobile-nav-backdrop" id="mobileNavBackdrop"></div>
+  <aside class="mobile-nav-drawer" id="mobileNavDrawer">
+    <div>
+      <div style="display: flex; align-items: center; gap: 10px; margin-bottom: 24px; padding-bottom: 16px; border-bottom: 1px solid var(--border-gold);">
+        <div class="logo-symbol" style="width: 32px; height: 32px;">
+          <svg viewBox="0 0 100 100" fill="none"><circle cx="50" cy="50" r="46" stroke="currentColor" stroke-width="2"/><path d="M50 20 C50 35 34 45 30 60 C36 60 42 54 50 46 C58 54 64 60 70 60 C66 45 50 35 50 20 Z" fill="currentColor"/></svg>
+        </div>
+        <div style="font-family: var(--font-serif); font-weight: 600; color: var(--deep-burgundy); font-size: 1.1rem;">
+          BRIDAL MAKEUP STUDIO
+        </div>
+      </div>
+      <ul class="mobile-nav-list">
+        <li class="mobile-nav-item"><a href="index.html">Home</a></li>
+        <li class="mobile-nav-item"><a href="about.html">About the Artist</a></li>
+        <li class="mobile-nav-item">
+          <div class="mobile-dropdown-title" id="mobileDropdownToggle">
+            Makeup Services <span style="font-size: 1rem;">▾</span>
+          </div>
+          <div class="mobile-submenu" id="mobileSubmenu">
+            <a href="bridal-makeup.html">Bridal Makeup</a>
+            <a href="engagement-makeup.html">Engagement Makeup</a>
+            <a href="reception-makeup.html">Reception Makeup</a>
+            <a href="party-makeup.html" class="active">Party Makeup</a>
+            <a href="services.html">All Services Overview</a>
+          </div>
+        </li>
+        <li class="mobile-nav-item"><a href="bridal-makeup.html">Bridal Looks</a></li>
+        <li class="mobile-nav-item"><a href="bridal-packages.html">Bridal Packages</a></li>
+        <li class="mobile-nav-item"><a href="gallery.html">Portfolio Gallery</a></li>
+        <li class="mobile-nav-item"><a href="faq.html">FAQs</a></li>
+        <li class="mobile-nav-item"><a href="contact.html">Contact Us</a></li>
+      </ul>
+    </div>
+    <div class="mobile-drawer-footer">
+      <a href="booking.html" class="btn btn-primary" style="width: 100%;">Check Your Date</a>
+    </div>
+  </aside>
+
+  <!-- Page Banner -->
+  <div class="page-banner">
+    <div class="container">
+      <div class="breadcrumb">
+        <a href="index.html">Home</a>
+        <span class="breadcrumb-sep">/</span>
+        <span>Party &amp; Occasion Makeup</span>
+      </div>
+      <h1>PARTY &amp; OCCASION MAKEUP</h1>
+      <p style="font-size: 1.05rem; color: var(--text-muted); max-width: 650px; margin: 10px auto 0 auto;">
+        Expert beauty styling for celebratory occasions, milestone birthdays, family celebrations, and fashion editorials.
+      </p>
+    </div>
+  </div>
+
+  <!-- Services Grid Section -->
+  <section class="section">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Celebratory Beauty</span>
+        <h2 class="section-title">OCCASION MAKEUP OFFERINGS</h2>
+        <div class="gold-ornament">
+          <div class="line"></div>
+          <div class="diamond"></div>
+          <div class="line right"></div>
+        </div>
+        <p class="section-subtitle">
+          Professional application designed to make you feel radiant and confident for any grand celebration.
+        </p>
+      </div>
+
+      <div class="services-card-grid">
+
+        <!-- 1. Birthday Makeup -->
+        <div class="service-card">
+          <div class="service-card-img-wrap">
+            <div class="img-box aspect-16-9">
+              <img src="assets/images/bridal-gallery-01.jpeg" alt="Birthday Glamour" class="luxury-img aspect-16-9" loading="lazy" onerror="this.onerror=null; this.src='images/bridal-gallery-01.jpeg';">
+            </div>
+          </div>
+          <div class="service-card-body">
+            <h3 class="service-card-title">Birthday Makeup</h3>
+            <p class="service-card-desc">
+              Youthful, glowing makeup customized for milestone birthday parties, dinner celebrations, and nightlife events.
+            </p>
+            <div class="policy-item" style="background: var(--soft-ivory); margin-bottom: 14px; padding: 10px 14px;">
+              <span style="font-size: 0.8rem; color: var(--charcoal);"><strong>Includes:</strong> Flawless light-to-medium base, winged liner, fluttery lashes, and statement lip shade.</span>
+            </div>
+            <a href="booking.html?service=Birthday+Makeup" class="service-card-link">
+              Enquire for Date &rarr;
+            </a>
+          </div>
+        </div>
+
+        <!-- 2. Family Function Makeup -->
+        <div class="service-card">
+          <div class="service-card-img-wrap">
+            <div class="img-box aspect-16-9">
+              <img src="assets/images/bridal-gallery-02.jpeg" alt="Family Functions" class="luxury-img aspect-16-9" loading="lazy" onerror="this.onerror=null; this.src='images/bridal-gallery-02.jpeg';">
+            </div>
+          </div>
+          <div class="service-card-body">
+            <h3 class="service-card-title">Family Function Makeup</h3>
+            <p class="service-card-desc">
+              Graceful styling for housewarmings, anniversary parties, baby showers (seemantham), and intimate family dinners.
+            </p>
+            <div class="policy-item" style="background: var(--soft-ivory); margin-bottom: 14px; padding: 10px 14px;">
+              <span style="font-size: 0.8rem; color: var(--charcoal);"><strong>Includes:</strong> Hydrated natural complexion, soft eye shading, and saree drape touch-ups.</span>
+            </div>
+            <a href="booking.html?service=Family+Function+Makeup" class="service-card-link">
+              Enquire for Date &rarr;
+            </a>
+          </div>
+        </div>
+
+        <!-- 3. Festive Makeup -->
+        <div class="service-card">
+          <div class="service-card-img-wrap">
+            <div class="img-box aspect-16-9">
+              <img src="assets/images/bridal-gallery-03.jpeg" alt="Festive Elegance" class="luxury-img aspect-16-9" loading="lazy" onerror="this.onerror=null; this.src='images/bridal-gallery-03.jpeg';">
+            </div>
+          </div>
+          <div class="service-card-body">
+            <h3 class="service-card-title">Festive Makeup</h3>
+            <p class="service-card-desc">
+              Vibrant makeup looks designed for Diwali, Navratri, Eid, Dussehra, and festive cultural galas.
+            </p>
+            <div class="policy-item" style="background: var(--soft-ivory); margin-bottom: 14px; padding: 10px 14px;">
+              <span style="font-size: 0.8rem; color: var(--charcoal);"><strong>Includes:</strong> Sweat-resistant long-wear formula, jewel-toned eye foils, and rich traditional lip colors.</span>
+            </div>
+            <a href="booking.html?service=Festive+Makeup" class="service-card-link">
+              Enquire for Date &rarr;
+            </a>
+          </div>
+        </div>
+
+        <!-- 4. Photoshoot Makeup -->
+        <div class="service-card">
+          <div class="service-card-img-wrap">
+            <div class="img-box aspect-16-9">
+              <img src="assets/images/bridal-gallery-04.jpeg" alt="Photoshoot Makeup" class="luxury-img aspect-16-9" loading="lazy" onerror="this.onerror=null; this.src='images/bridal-gallery-04.jpeg';">
+            </div>
+          </div>
+          <div class="service-card-body">
+            <h3 class="service-card-title">Photoshoot Makeup</h3>
+            <p class="service-card-desc">
+              Studio-calibrated makeup for maternity shoots, portfolio modeling, pre-wedding couple shoots, and branding portraits.
+            </p>
+            <div class="policy-item" style="background: var(--soft-ivory); margin-bottom: 14px; padding: 10px 14px;">
+              <span style="font-size: 0.8rem; color: var(--charcoal);"><strong>Includes:</strong> Zero-flashback HD contouring, flash-friendly powders, and multiple look adaptations.</span>
+            </div>
+            <a href="booking.html?service=Photoshoot+Makeup" class="service-card-link">
+              Enquire for Date &rarr;
+            </a>
+          </div>
+        </div>
+
+        <!-- 5. Bridesmaid Makeup -->
+        <div class="service-card">
+          <div class="service-card-img-wrap">
+            <div class="img-box aspect-16-9">
+              <img src="assets/images/bridesmaid-makeup.jpeg" alt="Bridesmaid Makeup" class="luxury-img aspect-16-9" loading="lazy" onerror="this.onerror=null; this.src='images/bridesmaid-makeup.jpeg';">
+            </div>
+          </div>
+          <div class="service-card-body">
+            <h3 class="service-card-title">Bridesmaid Makeup</h3>
+            <p class="service-card-desc">
+              Coordinated beauty for the bridal squad, designed to look cohesive in group portraits while complementing each person's unique skin tone.
+            </p>
+            <div class="policy-item" style="background: var(--soft-ivory); margin-bottom: 14px; padding: 10px 14px;">
+              <span style="font-size: 0.8rem; color: var(--charcoal);"><strong>Includes:</strong> Elegant neutral eyes, radiant medium-coverage base, and synchronised event timing.</span>
+            </div>
+            <a href="booking.html?service=Bridesmaid+Makeup" class="service-card-link">
+              Enquire for Date &rarr;
+            </a>
+          </div>
+        </div>
+
+        <!-- 6. Special Occasion Makeup -->
+        <div class="service-card">
+          <div class="service-card-img-wrap">
+            <div class="img-box aspect-16-9">
+              <img src="assets/images/bridal-gallery-05.jpeg" alt="Special Occasions" class="luxury-img aspect-16-9" loading="lazy" onerror="this.onerror=null; this.src='images/bridal-gallery-05.jpeg';">
+            </div>
+          </div>
+          <div class="service-card-body">
+            <h3 class="service-card-title">Special Occasion Makeup</h3>
+            <p class="service-card-desc">
+              Tailored cosmetics for cocktail evenings, corporate galas, award dinners, and milestone public appearances.
+            </p>
+            <div class="policy-item" style="background: var(--soft-ivory); margin-bottom: 14px; padding: 10px 14px;">
+              <span style="font-size: 0.8rem; color: var(--charcoal);"><strong>Includes:</strong> Customized glamour based on your dress neckline, jewellery style, and event venue.</span>
+            </div>
+            <a href="booking.html?service=Special+Occasion" class="service-card-link">
+              Enquire for Date &rarr;
+            </a>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA Banner -->
+  <section class="cta-banner">
+    <div class="container cta-banner-content">
+      <span class="section-tag" style="color: var(--champagne-gold-light);">Group Bookings Available</span>
+      <h2 class="cta-banner-title">ATTENDING A WEDDING OR CELEBRATION?</h2>
+      <p class="cta-banner-desc">
+        Contact our studio desk to arrange individual or group occasion appointments.
+      </p>
+      <a href="booking.html" class="btn btn-primary">Check Availability</a>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-top-grid">
+        <div class="footer-brand">
+          <a href="index.html" class="brand-logo-link">
+            <div class="logo-symbol" style="width: 40px; height: 40px;">
+              <svg viewBox="0 0 100 100" fill="none">
+                <circle cx="50" cy="50" r="46" stroke="currentColor" stroke-width="1.5" stroke-dasharray="3 3"/>
+                <circle cx="50" cy="50" r="41" stroke="currentColor" stroke-width="1"/>
+                <path d="M50 18 C50 34 34 44 30 60 C36 60 42 54 50 46 C58 54 64 60 70 60 C66 44 50 34 50 18 Z" fill="currentColor"/>
+              </svg>
+            </div>
+            <div class="brand-text-wrap">
+              <span class="brand-title" style="color: var(--soft-ivory); font-size: 1.15rem;">BRIDAL MAKEUP STUDIO</span>
+              <span class="brand-subtitle" style="color: var(--champagne-gold-light);">BEAUTY &amp; MAKEUP SERVICES</span>
+            </div>
+          </a>
+          <p class="footer-brand-desc">
+            Dedicated to the art of luxury Indian bridal makeup, creating timeless looks that honor your individuality, heritage, and celebration.
+          </p>
+        </div>
+
+        <div>
+          <h4 class="footer-heading">Quick Links</h4>
+          <ul class="footer-links-list">
+            <li><a href="index.html" class="footer-link">Home</a></li>
+            <li><a href="about.html" class="footer-link">About the Artist</a></li>
+            <li><a href="bridal-makeup.html" class="footer-link">Bridal Looks</a></li>
+            <li><a href="bridal-packages.html" class="footer-link">Bridal Packages</a></li>
+            <li><a href="gallery.html" class="footer-link">Portfolio Gallery</a></li>
+            <li><a href="booking.html" class="footer-link">Book Your Date</a></li>
+            <li><a href="faq.html" class="footer-link">Frequently Asked Questions</a></li>
+            <li><a href="contact.html" class="footer-link">Contact Us</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <h4 class="footer-heading">Makeup Services</h4>
+          <ul class="footer-links-list">
+            <li><a href="bridal-makeup.html" class="footer-link">Traditional Bridal</a></li>
+            <li><a href="bridal-makeup.html" class="footer-link">HD Bridal Makeup</a></li>
+            <li><a href="bridal-makeup.html" class="footer-link">Airbrush Bridal</a></li>
+            <li><a href="services.html#soft-glam" class="footer-link">Soft Glam Artistry</a></li>
+            <li><a href="engagement-makeup.html" class="footer-link">Engagement Makeup</a></li>
+            <li><a href="reception-makeup.html" class="footer-link">Reception Glam</a></li>
+            <li><a href="party-makeup.html" class="footer-link">Party &amp; Guest Looks</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <h4 class="footer-heading">Studio Desk</h4>
+          <div class="footer-contact-item">
+            <svg viewBox="0 0 24 24"><path d="M6.62 10.79a15.05 15.05 0 006.59 6.59l2.2-2.2c.27-.27.67-.36 1.02-.24 1.12.37 2.33.57 3.57.57.55 0 1 .45 1 1V20c0 .55-.45 1-1 1-9.39 0-17-7.61-17-17 0-.55.45-1 1-1h3.5c.55 0 1 .45 1 1 0 1.25.2 2.45.57 3.57.11.35.03.74-.25 1.02l-2.2 2.2z"/></svg>
+            <div>
+              <strong>Phone:</strong> 0000000000<br>
+              <strong>Alt:</strong> 0000000000
+            </div>
+          </div>
+          <div class="footer-contact-item">
+            <svg viewBox="0 0 24 24"><path d="M20 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z"/></svg>
+            <div>
+              <strong>Email:</strong> demo@example.com
+            </div>
+          </div>
+          <div class="footer-contact-item">
+            <svg viewBox="0 0 24 24"><path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z"/></svg>
+            <div>
+              Plot No. 000, Demo Road, Sample Area, Hyderabad, Telangana – 000000
+            </div>
+          </div>
+          <div class="footer-contact-item">
+            <svg viewBox="0 0 24 24"><path d="M11.99 2C6.47 2 2 6.48 2 12s4.47 10 9.99 10C17.52 22 22 17.52 22 12S17.52 2 11.99 2zM12 20c-4.42 0-8-3.58-8-8s3.58-8 8-8 8 3.58 8 8-3.58 8-8 8zm.5-13H11v6l5.25 3.15.75-1.23-4.5-2.67z"/></svg>
+            <div>
+              Mon – Sat: 9:00 AM – 6:00 PM
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer-notice-box">
+        <strong>Demonstration Website Notice:</strong> This is a generic Indian bridal makeup studio showcase website developed strictly for demonstration purposes. All business names, artist details, contact numbers, email addresses, prices, policies, and reviews are illustrative placeholders.
+      </div>
+
+      <div class="footer-bottom">
+        <div>&copy; 2026 Bridal Makeup Studio. All rights reserved.</div>
+        <div>Generic Indian Bridal Beauty &amp; Artistry Demonstration</div>
+      </div>
+    </div>
+  </footer>
+
+  <button class="scroll-top-btn" id="scrollTopBtn" aria-label="Scroll to top of page">
+    <svg viewBox="0 0 24 24"><path d="M7.41 15.41L12 10.83l4.59 4.58L18 14l-6-6-6 6z"/></svg>
+  </button>
+
+  <script src="assets/js/script.js"></script>
+</body>
+</html>

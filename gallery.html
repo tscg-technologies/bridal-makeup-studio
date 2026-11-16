@@ -1,0 +1,446 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bridal Makeup Gallery &amp; Portfolio | Bridal Makeup Studio | Wedding Looks</title>
+  <meta name="description" content="Browse our luxury Indian bridal makeup portfolio with interactive filters: South Indian, North Indian, HD bridal, airbrush, engagement, reception, and soft glam artistry.">
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><circle cx='50' cy='50' r='45' fill='%23542B36'/><circle cx='50' cy='50' r='40' stroke='%23C8A66A' stroke-width='2' fill='none'/><path d='M50 22 C50 36 34 45 30 60 C36 60 42 54 50 46 C58 54 64 60 70 60 C66 45 50 36 50 22 Z' fill='%23C8A66A'/></svg>">
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+
+  <!-- Top Utility Bar -->
+  <div class="top-bar">
+    <div class="container top-bar-inner">
+      <div class="top-bar-contact">
+        <span class="top-bar-item">
+          <svg viewBox="0 0 24 24"><path d="M6.62 10.79a15.05 15.05 0 006.59 6.59l2.2-2.2c.27-.27.67-.36 1.02-.24 1.12.37 2.33.57 3.57.57.55 0 1 .45 1 1V20c0 .55-.45 1-1 1-9.39 0-17-7.61-17-17 0-.55.45-1 1-1h3.5c.55 0 1 .45 1 1 0 1.25.2 2.45.57 3.57.11.35.03.74-.25 1.02l-2.2 2.2z"/></svg>
+          Call: 0000000000
+        </span>
+        <span class="top-bar-item">
+          <svg viewBox="0 0 24 24"><path d="M20 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z"/></svg>
+          demo@example.com
+        </span>
+        <span class="top-bar-item">
+          <svg viewBox="0 0 24 24"><path d="M11.99 2C6.47 2 2 6.48 2 12s4.47 10 9.99 10C17.52 22 22 17.52 22 12S17.52 2 11.99 2zM12 20c-4.42 0-8-3.58-8-8s3.58-8 8-8 8 3.58 8 8-3.58 8-8 8zm.5-13H11v6l5.25 3.15.75-1.23-4.5-2.67z"/></svg>
+          Mon – Sat: 9:00 AM – 6:00 PM
+        </span>
+      </div>
+      <div class="top-bar-tag">
+        Generic Demo Website • Hyderabad, Telangana
+      </div>
+    </div>
+  </div>
+
+  <!-- Header -->
+  <header class="header">
+    <div class="container header-inner">
+      <a href="index.html" class="brand-logo-link">
+        <div class="logo-symbol">
+          <svg viewBox="0 0 100 100" fill="none">
+            <circle cx="50" cy="50" r="46" stroke="currentColor" stroke-width="1.5" stroke-dasharray="3 3"/>
+            <circle cx="50" cy="50" r="41" stroke="currentColor" stroke-width="1"/>
+            <path d="M50 18 C50 34 34 44 30 60 C36 60 42 54 50 46 C58 54 64 60 70 60 C66 44 50 34 50 18 Z" fill="currentColor"/>
+          </svg>
+        </div>
+        <div class="brand-text-wrap">
+          <span class="brand-title">BRIDAL MAKEUP STUDIO</span>
+          <span class="brand-subtitle">BEAUTY &amp; MAKEUP SERVICES</span>
+        </div>
+      </a>
+
+      <nav class="nav-desktop" aria-label="Main Navigation">
+        <ul class="nav-links">
+          <li class="nav-item"><a href="index.html" class="nav-link">Home</a></li>
+          <li class="nav-item"><a href="about.html" class="nav-link">About</a></li>
+          <li class="nav-item dropdown">
+            <a href="services.html" class="nav-link">
+              Services
+              <svg class="dropdown-arrow" viewBox="0 0 24 24"><path d="M7 10l5 5 5-5z"/></svg>
+            </a>
+            <div class="dropdown-menu">
+              <a href="bridal-makeup.html" class="dropdown-link">Bridal Makeup</a>
+              <a href="engagement-makeup.html" class="dropdown-link">Engagement Makeup</a>
+              <a href="reception-makeup.html" class="dropdown-link">Reception Makeup</a>
+              <a href="party-makeup.html" class="dropdown-link">Party Makeup</a>
+              <a href="services.html#bridesmaid" class="dropdown-link">Bridesmaid Makeup</a>
+              <a href="services.html#family" class="dropdown-link">Family Makeup</a>
+              <a href="services.html" class="dropdown-link" style="font-weight: 600; border-top: 1px solid var(--border-subtle); margin-top: 4px;">View All Services</a>
+            </div>
+          </li>
+          <li class="nav-item"><a href="bridal-makeup.html" class="nav-link">Bridal Makeup</a></li>
+          <li class="nav-item"><a href="bridal-packages.html" class="nav-link">Packages</a></li>
+          <li class="nav-item"><a href="gallery.html" class="nav-link active">Gallery</a></li>
+          <li class="nav-item"><a href="contact.html" class="nav-link">Contact</a></li>
+        </ul>
+        <a href="booking.html" class="btn btn-primary btn-sm">Book Your Date</a>
+      </nav>
+
+      <button class="mobile-toggle" id="mobileToggleBtn" aria-label="Toggle navigation menu">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+  </header>
+
+  <!-- Mobile Drawer -->
+  <div class="mobile-nav-backdrop" id="mobileNavBackdrop"></div>
+  <aside class="mobile-nav-drawer" id="mobileNavDrawer">
+    <div>
+      <div style="display: flex; align-items: center; gap: 10px; margin-bottom: 24px; padding-bottom: 16px; border-bottom: 1px solid var(--border-gold);">
+        <div class="logo-symbol" style="width: 32px; height: 32px;">
+          <svg viewBox="0 0 100 100" fill="none"><circle cx="50" cy="50" r="46" stroke="currentColor" stroke-width="2"/><path d="M50 20 C50 35 34 45 30 60 C36 60 42 54 50 46 C58 54 64 60 70 60 C66 45 50 35 50 20 Z" fill="currentColor"/></svg>
+        </div>
+        <div style="font-family: var(--font-serif); font-weight: 600; color: var(--deep-burgundy); font-size: 1.1rem;">
+          BRIDAL MAKEUP STUDIO
+        </div>
+      </div>
+      <ul class="mobile-nav-list">
+        <li class="mobile-nav-item"><a href="index.html">Home</a></li>
+        <li class="mobile-nav-item"><a href="about.html">About the Artist</a></li>
+        <li class="mobile-nav-item">
+          <div class="mobile-dropdown-title" id="mobileDropdownToggle">
+            Makeup Services <span style="font-size: 1rem;">▾</span>
+          </div>
+          <div class="mobile-submenu" id="mobileSubmenu">
+            <a href="bridal-makeup.html">Bridal Makeup</a>
+            <a href="engagement-makeup.html">Engagement Makeup</a>
+            <a href="reception-makeup.html">Reception Makeup</a>
+            <a href="party-makeup.html">Party Makeup</a>
+            <a href="services.html">All Services Overview</a>
+          </div>
+        </li>
+        <li class="mobile-nav-item"><a href="bridal-makeup.html">Bridal Looks</a></li>
+        <li class="mobile-nav-item"><a href="bridal-packages.html">Bridal Packages</a></li>
+        <li class="mobile-nav-item"><a href="gallery.html" class="active">Portfolio Gallery</a></li>
+        <li class="mobile-nav-item"><a href="faq.html">FAQs</a></li>
+        <li class="mobile-nav-item"><a href="contact.html">Contact Us</a></li>
+      </ul>
+    </div>
+    <div class="mobile-drawer-footer">
+      <a href="booking.html" class="btn btn-primary" style="width: 100%;">Check Your Date</a>
+    </div>
+  </aside>
+
+  <!-- Page Banner -->
+  <div class="page-banner">
+    <div class="container">
+      <div class="breadcrumb">
+        <a href="index.html">Home</a>
+        <span class="breadcrumb-sep">/</span>
+        <span>Portfolio Gallery</span>
+      </div>
+      <h1>BRIDAL MAKEUP GALLERY</h1>
+      <p style="font-size: 1.05rem; color: var(--text-muted); max-width: 650px; margin: 10px auto 0 auto;">
+        Filter by makeup style, ceremony occasion, or finish to explore curated bridal transformations.
+      </p>
+    </div>
+  </div>
+
+  <!-- Gallery & Filters Section -->
+  <section class="section">
+    <div class="container">
+
+      <!-- Category Filter Tabs -->
+      <div class="gallery-filters" role="tablist">
+        <button class="filter-btn active" data-filter="all">All Styles</button>
+        <button class="filter-btn" data-filter="traditional">Traditional Bridal</button>
+        <button class="filter-btn" data-filter="south-indian">South Indian Bridal</button>
+        <button class="filter-btn" data-filter="north-indian">North Indian Bridal</button>
+        <button class="filter-btn" data-filter="hd">HD Makeup</button>
+        <button class="filter-btn" data-filter="airbrush">Airbrush Makeup</button>
+        <button class="filter-btn" data-filter="reception">Reception Makeup</button>
+        <button class="filter-btn" data-filter="engagement">Engagement Makeup</button>
+        <button class="filter-btn" data-filter="soft-glam">Soft Glam</button>
+        <button class="filter-btn" data-filter="party">Party &amp; Occasion</button>
+        <button class="filter-btn" data-filter="bridesmaid">Bridesmaid Looks</button>
+      </div>
+
+      <!-- Gallery Grid -->
+      <div class="gallery-grid" id="mainGalleryGrid">
+
+        <!-- Item 1: South Indian Traditional -->
+        <div class="gallery-item" data-category="traditional south-indian hd" data-title="Traditional South Indian Bride" data-category-label="Traditional / South Indian" data-filename="traditional-south-indian-bride.jpeg" data-specs="Portrait 4:5 • 1200 x 1500 px">
+          <div class="img-box aspect-4-5">
+            <img src="assets/images/traditional-south-indian-bride.jpeg" alt="Traditional South Indian Bride" class="luxury-img aspect-4-5" loading="lazy" onerror="this.onerror=null; this.src='images/traditional-south-indian-bride.jpeg';">
+          </div>
+          <div class="gallery-overlay">
+            <span class="gallery-tag">South Indian • Traditional</span>
+            <h4 class="gallery-title">Traditional South Indian Bride</h4>
+            <span class="gallery-action-hint">Click to enlarge preview &rarr;</span>
+          </div>
+        </div>
+
+        <!-- Item 2: North Indian Regal -->
+        <div class="gallery-item" data-category="traditional north-indian hd" data-title="North Indian Regal Bridal Look" data-category-label="Traditional / North Indian" data-filename="north-indian-bridal-look.jpeg" data-specs="Portrait 4:5 • 1200 x 1500 px">
+          <div class="img-box aspect-4-5">
+            <img src="assets/images/north-indian-bridal-look.jpeg" alt="North Indian Regal Bridal Look" class="luxury-img aspect-4-5" loading="lazy" onerror="this.onerror=null; this.src='images/north-indian-bridal-look.jpeg';">
+          </div>
+          <div class="gallery-overlay">
+            <span class="gallery-tag">North Indian • Traditional</span>
+            <h4 class="gallery-title">North Indian Regal Bridal Look</h4>
+            <span class="gallery-action-hint">Click to enlarge preview &rarr;</span>
+          </div>
+        </div>
+
+        <!-- Item 3: Contemporary Editorial -->
+        <div class="gallery-item" data-category="contemporary soft-glam" data-title="Contemporary Pastel Bridal Glow" data-category-label="Contemporary / Soft Glam" data-filename="contemporary-bridal-look.jpeg" data-specs="Portrait 4:5 • 1200 x 1500 px">
+          <div class="img-box aspect-4-5">
+            <img src="assets/images/contemporary-bridal-look.jpeg" alt="Contemporary Pastel Bridal Glow" class="luxury-img aspect-4-5" loading="lazy" onerror="this.onerror=null; this.src='images/contemporary-bridal-look.jpeg';">
+          </div>
+          <div class="gallery-overlay">
+            <span class="gallery-tag">Contemporary • Modern</span>
+            <h4 class="gallery-title">Contemporary Pastel Bridal Glow</h4>
+            <span class="gallery-action-hint">Click to enlarge preview &rarr;</span>
+          </div>
+        </div>
+
+        <!-- Item 4: Minimal Understated -->
+        <div class="gallery-item" data-category="soft-glam minimal hd" data-title="Minimalist Dewy Bridal Finish" data-category-label="Soft Glam / Minimal" data-filename="minimal-bridal-makeup.jpeg" data-specs="Portrait 4:5 • 1200 x 1500 px">
+          <div class="img-box aspect-4-5">
+            <img src="assets/images/minimal-bridal-makeup.jpeg" alt="Minimalist Dewy Bridal Finish" class="luxury-img aspect-4-5" loading="lazy" onerror="this.onerror=null; this.src='images/minimal-bridal-makeup.jpeg';">
+          </div>
+          <div class="gallery-overlay">
+            <span class="gallery-tag">Minimal • Soft Glam</span>
+            <h4 class="gallery-title">Minimalist Dewy Bridal Finish</h4>
+            <span class="gallery-action-hint">Click to enlarge preview &rarr;</span>
+          </div>
+        </div>
+
+        <!-- Item 5: Reception Glamour -->
+        <div class="gallery-item" data-category="reception hd" data-title="Evening Reception Statement Glam" data-category-label="Reception Makeup" data-filename="reception-makeup.jpeg" data-specs="Portrait 4:5 • 1200 x 1500 px">
+          <div class="img-box aspect-4-5">
+            <img src="assets/images/reception-makeup.jpeg" alt="Evening Reception Statement Glam" class="luxury-img aspect-4-5" loading="lazy" onerror="this.onerror=null; this.src='images/reception-makeup.jpeg';">
+          </div>
+          <div class="gallery-overlay">
+            <span class="gallery-tag">Reception • Evening</span>
+            <h4 class="gallery-title">Evening Reception Statement Glam</h4>
+            <span class="gallery-action-hint">Click to enlarge preview &rarr;</span>
+          </div>
+        </div>
+
+        <!-- Item 6: Engagement Radiance -->
+        <div class="gallery-item" data-category="engagement soft-glam" data-title="Romantic Engagement Shimmer" data-category-label="Engagement Makeup" data-filename="engagement-makeup.jpeg" data-specs="Portrait 4:5 • 1200 x 1500 px">
+          <div class="img-box aspect-4-5">
+            <img src="assets/images/engagement-makeup.jpeg" alt="Romantic Engagement Shimmer" class="luxury-img aspect-4-5" loading="lazy" onerror="this.onerror=null; this.src='images/engagement-makeup.jpeg';">
+          </div>
+          <div class="gallery-overlay">
+            <span class="gallery-tag">Engagement • Pre-Wedding</span>
+            <h4 class="gallery-title">Romantic Engagement Shimmer</h4>
+            <span class="gallery-action-hint">Click to enlarge preview &rarr;</span>
+          </div>
+        </div>
+
+        <!-- Item 7: Airbrush Finish -->
+        <div class="gallery-item" data-category="airbrush hd" data-title="Seamless Airbrush Flawless Finish" data-category-label="Airbrush Bridal" data-filename="airbrush-bridal-makeup.jpeg" data-specs="Portrait 4:5 • 1200 x 1500 px">
+          <div class="img-box aspect-4-5">
+            <img src="assets/images/airbrush-bridal-makeup.jpeg" alt="Seamless Airbrush Flawless Finish" class="luxury-img aspect-4-5" loading="lazy" onerror="this.onerror=null; this.src='images/airbrush-bridal-makeup.jpeg';">
+          </div>
+          <div class="gallery-overlay">
+            <span class="gallery-tag">Airbrush • Flawless Base</span>
+            <h4 class="gallery-title">Seamless Airbrush Flawless Finish</h4>
+            <span class="gallery-action-hint">Click to enlarge preview &rarr;</span>
+          </div>
+        </div>
+
+        <!-- Item 8: Close-Up Eye Artistry -->
+        <div class="gallery-item" data-category="hd traditional" data-title="Detailed Bridal Eye Artistry" data-category-label="Eye Artistry" data-filename="bridal-eye-makeup.jpeg" data-specs="Portrait 4:5 • 1200 x 1500 px">
+          <div class="img-box aspect-4-5">
+            <img src="assets/images/bridal-eye-makeup.jpeg" alt="Detailed Bridal Eye Artistry" class="luxury-img aspect-4-5" loading="lazy" onerror="this.onerror=null; this.src='images/bridal-eye-makeup.jpeg';">
+          </div>
+          <div class="gallery-overlay">
+            <span class="gallery-tag">Detailed Eyes • Macro</span>
+            <h4 class="gallery-title">Detailed Bridal Eye Artistry</h4>
+            <span class="gallery-action-hint">Click to enlarge preview &rarr;</span>
+          </div>
+        </div>
+
+        <!-- Item 9: Hairstyling & Flowers -->
+        <div class="gallery-item" data-category="traditional south-indian" data-title="Traditional Floral Braid Styling" data-category-label="Hairstyling" data-filename="bridal-hairstyling.jpeg" data-specs="Portrait 4:5 • 1200 x 1500 px">
+          <div class="img-box aspect-4-5">
+            <img src="assets/images/bridal-hairstyling.jpeg" alt="Traditional Floral Braid Styling" class="luxury-img aspect-4-5" loading="lazy" onerror="this.onerror=null; this.src='images/bridal-hairstyling.jpeg';">
+          </div>
+          <div class="gallery-overlay">
+            <span class="gallery-tag">Hairstyling • Floral</span>
+            <h4 class="gallery-title">Traditional Floral Braid Styling</h4>
+            <span class="gallery-action-hint">Click to enlarge preview &rarr;</span>
+          </div>
+        </div>
+
+        <!-- Item 10: Bridesmaid Glamour -->
+        <div class="gallery-item" data-category="bridesmaid party" data-title="Bridesmaid Rose Cocktail Look" data-category-label="Bridesmaid Looks" data-filename="bridesmaid-makeup.jpeg" data-specs="Portrait 4:5 • 1200 x 1500 px">
+          <div class="img-box aspect-4-5">
+            <img src="assets/images/bridesmaid-makeup.jpeg" alt="Bridesmaid Rose Cocktail Look" class="luxury-img aspect-4-5" loading="lazy" onerror="this.onerror=null; this.src='images/bridesmaid-makeup.jpeg';">
+          </div>
+          <div class="gallery-overlay">
+            <span class="gallery-tag">Bridesmaid • Party</span>
+            <h4 class="gallery-title">Bridesmaid Rose Cocktail Look</h4>
+            <span class="gallery-action-hint">Click to enlarge preview &rarr;</span>
+          </div>
+        </div>
+
+        <!-- Item 11: Party & Festive Makeup -->
+        <div class="gallery-item" data-category="party" data-title="Festive Evening Sangeet Makeup" data-category-label="Party &amp; Festive" data-filename="party-makeup.jpeg" data-specs="Portrait 4:5 • 1200 x 1500 px">
+          <div class="img-box aspect-4-5">
+            <img src="assets/images/party-makeup.jpeg" alt="Festive Evening Sangeet Makeup" class="luxury-img aspect-4-5" loading="lazy" onerror="this.onerror=null; this.src='images/party-makeup.jpeg';">
+          </div>
+          <div class="gallery-overlay">
+            <span class="gallery-tag">Occasion • Festive</span>
+            <h4 class="gallery-title">Festive Evening Sangeet Makeup</h4>
+            <span class="gallery-action-hint">Click to enlarge preview &rarr;</span>
+          </div>
+        </div>
+
+        <!-- Item 12: Jewellery & Dupatta Setting -->
+        <div class="gallery-item" data-category="traditional north-indian south-indian" data-title="Jewellery Setting &amp; Dupatta Drape" data-category-label="Styling &amp; Draping" data-filename="bridal-jewellery-styling.jpeg" data-specs="Portrait 4:5 • 1200 x 1500 px">
+          <div class="img-box aspect-4-5">
+            <img src="assets/images/bridal-jewellery-styling.jpeg" alt="Jewellery Setting &amp; Dupatta Drape" class="luxury-img aspect-4-5" loading="lazy" onerror="this.onerror=null; this.src='images/bridal-jewellery-styling.jpeg';">
+          </div>
+          <div class="gallery-overlay">
+            <span class="gallery-tag">Styling • Draping</span>
+            <h4 class="gallery-title">Jewellery Setting &amp; Dupatta Drape</h4>
+            <span class="gallery-action-hint">Click to enlarge preview &rarr;</span>
+          </div>
+        </div>
+
+      </div>
+
+      <div class="demo-disclosure-note" style="margin-top: 40px;">
+        * Note: All images above are professional layout placeholders. In accordance with studio privacy guidelines, genuine client photographs are published only with written permissions.
+      </div>
+    </div>
+  </section>
+
+  <!-- Lightbox Modal -->
+  <div class="lightbox-modal" id="galleryLightbox" role="dialog" aria-modal="true" aria-label="Image Preview Lightbox">
+    <div class="lightbox-content-box">
+      <button class="lightbox-close-btn" id="lightboxCloseBtn" aria-label="Close lightbox">&times;</button>
+      <button class="lightbox-nav-btn lightbox-prev-btn" id="lightboxPrevBtn" aria-label="Previous image">&larr;</button>
+      <button class="lightbox-nav-btn lightbox-next-btn" id="lightboxNextBtn" aria-label="Next image">&rarr;</button>
+      
+      <div id="lightboxPlaceholderWrap" class="lightbox-placeholder-preview">
+        <!-- Injected via JavaScript -->
+      </div>
+
+      <div class="lightbox-caption-area">
+        <div>
+          <div class="lightbox-caption-cat" id="lightboxCategory">Category</div>
+          <div class="lightbox-caption-title" id="lightboxTitle">Title</div>
+        </div>
+        <div class="lightbox-counter" id="lightboxCounter">1 / 12</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Bottom CTA -->
+  <section class="cta-banner">
+    <div class="container cta-banner-content">
+      <span class="section-tag" style="color: var(--champagne-gold-light);">Celebrate Your Style</span>
+      <h2 class="cta-banner-title">INSPIRED BY ONE OF THESE LOOKS?</h2>
+      <p class="cta-banner-desc">
+        Let us adapt these techniques to match your complexion, jewelry, and celebration attire.
+      </p>
+      <a href="booking.html" class="btn btn-primary">Book Your Consultation</a>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-top-grid">
+        <div class="footer-brand">
+          <a href="index.html" class="brand-logo-link">
+            <div class="logo-symbol" style="width: 40px; height: 40px;">
+              <svg viewBox="0 0 100 100" fill="none">
+                <circle cx="50" cy="50" r="46" stroke="currentColor" stroke-width="1.5" stroke-dasharray="3 3"/>
+                <circle cx="50" cy="50" r="41" stroke="currentColor" stroke-width="1"/>
+                <path d="M50 18 C50 34 34 44 30 60 C36 60 42 54 50 46 C58 54 64 60 70 60 C66 44 50 34 50 18 Z" fill="currentColor"/>
+              </svg>
+            </div>
+            <div class="brand-text-wrap">
+              <span class="brand-title" style="color: var(--soft-ivory); font-size: 1.15rem;">BRIDAL MAKEUP STUDIO</span>
+              <span class="brand-subtitle" style="color: var(--champagne-gold-light);">BEAUTY &amp; MAKEUP SERVICES</span>
+            </div>
+          </a>
+          <p class="footer-brand-desc">
+            Dedicated to the art of luxury Indian bridal makeup, creating timeless looks that honor your individuality, heritage, and celebration.
+          </p>
+        </div>
+
+        <div>
+          <h4 class="footer-heading">Quick Links</h4>
+          <ul class="footer-links-list">
+            <li><a href="index.html" class="footer-link">Home</a></li>
+            <li><a href="about.html" class="footer-link">About the Artist</a></li>
+            <li><a href="bridal-makeup.html" class="footer-link">Bridal Looks</a></li>
+            <li><a href="bridal-packages.html" class="footer-link">Bridal Packages</a></li>
+            <li><a href="gallery.html" class="footer-link">Portfolio Gallery</a></li>
+            <li><a href="booking.html" class="footer-link">Book Your Date</a></li>
+            <li><a href="faq.html" class="footer-link">Frequently Asked Questions</a></li>
+            <li><a href="contact.html" class="footer-link">Contact Us</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <h4 class="footer-heading">Makeup Services</h4>
+          <ul class="footer-links-list">
+            <li><a href="bridal-makeup.html" class="footer-link">Traditional Bridal</a></li>
+            <li><a href="bridal-makeup.html" class="footer-link">HD Bridal Makeup</a></li>
+            <li><a href="bridal-makeup.html" class="footer-link">Airbrush Bridal</a></li>
+            <li><a href="services.html#soft-glam" class="footer-link">Soft Glam Artistry</a></li>
+            <li><a href="engagement-makeup.html" class="footer-link">Engagement Makeup</a></li>
+            <li><a href="reception-makeup.html" class="footer-link">Reception Glam</a></li>
+            <li><a href="party-makeup.html" class="footer-link">Party &amp; Guest Looks</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <h4 class="footer-heading">Studio Desk</h4>
+          <div class="footer-contact-item">
+            <svg viewBox="0 0 24 24"><path d="M6.62 10.79a15.05 15.05 0 006.59 6.59l2.2-2.2c.27-.27.67-.36 1.02-.24 1.12.37 2.33.57 3.57.57.55 0 1 .45 1 1V20c0 .55-.45 1-1 1-9.39 0-17-7.61-17-17 0-.55.45-1 1-1h3.5c.55 0 1 .45 1 1 0 1.25.2 2.45.57 3.57.11.35.03.74-.25 1.02l-2.2 2.2z"/></svg>
+            <div>
+              <strong>Phone:</strong> 0000000000<br>
+              <strong>Alt:</strong> 0000000000
+            </div>
+          </div>
+          <div class="footer-contact-item">
+            <svg viewBox="0 0 24 24"><path d="M20 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z"/></svg>
+            <div>
+              <strong>Email:</strong> demo@example.com
+            </div>
+          </div>
+          <div class="footer-contact-item">
+            <svg viewBox="0 0 24 24"><path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z"/></svg>
+            <div>
+              Plot No. 000, Demo Road, Sample Area, Hyderabad, Telangana – 000000
+            </div>
+          </div>
+          <div class="footer-contact-item">
+            <svg viewBox="0 0 24 24"><path d="M11.99 2C6.47 2 2 6.48 2 12s4.47 10 9.99 10C17.52 22 22 17.52 22 12S17.52 2 11.99 2zM12 20c-4.42 0-8-3.58-8-8s3.58-8 8-8 8 3.58 8 8-3.58 8-8 8zm.5-13H11v6l5.25 3.15.75-1.23-4.5-2.67z"/></svg>
+            <div>
+              Mon – Sat: 9:00 AM – 6:00 PM
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer-notice-box">
+        <strong>Demonstration Website Notice:</strong> This is a generic Indian bridal makeup studio showcase website developed strictly for demonstration purposes. All business names, artist details, contact numbers, email addresses, prices, policies, and reviews are illustrative placeholders.
+      </div>
+
+      <div class="footer-bottom">
+        <div>&copy; 2026 Bridal Makeup Studio. All rights reserved.</div>
+        <div>Generic Indian Bridal Beauty &amp; Artistry Demonstration</div>
+      </div>
+    </div>
+  </footer>
+
+  <button class="scroll-top-btn" id="scrollTopBtn" aria-label="Scroll to top of page">
+    <svg viewBox="0 0 24 24"><path d="M7.41 15.41L12 10.83l4.59 4.58L18 14l-6-6-6 6z"/></svg>
+  </button>
+
+  <script src="assets/js/script.js"></script>
+</body>
+</html>
